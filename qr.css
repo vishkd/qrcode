@@ -42,3 +42,32 @@
     margin-left: 8px;
 
 }
+@media screen and (max-width: 600px) {
+    #container {
+        width: 90%;
+        height: auto;
+    }
+
+    #search {
+        width: 80%;
+    }
+
+    #imgBox {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #container {
+        width: 70%;
+        height: auto;
+    }
+
+    #search {
+        width: 85%;
+    }
+
+    #imgBox {
+        width: 85%;
+    }
+}
